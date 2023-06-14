@@ -12,11 +12,11 @@ const Experience = () => {
   return (
     <div className='experience'>
 
-    <VerticalTimeline lineColor='#3e497a'>
+    <VerticalTimeline lineColor='#040d22'>
       <VerticalTimelineElement 
       className="vertical-timeline-element--education"
       date='2006 - 2010'
-      iconStyle={{background:'#3e497a', color: '#fff'}}
+      iconStyle={{background:'#040d22', color: '#fff'}}
       icon={<IoIosSchool/>}>
       <h3 className='vertical-timeline-element-title'> Pascal College Zuid, Noord-Holland Zaandam. </h3>
       <p>High School Diploma</p>
@@ -25,7 +25,7 @@ const Experience = () => {
       <VerticalTimelineElement 
       className="vertical-timeline-element--education"
       date='2011 - 2012'
-      iconStyle={{background:'#3e497a', color: '#fff'}}
+      iconStyle={{background:'#040d22', color: '#fff'}}
       icon={<IoIosSchool/>}>
       <h3 className='vertical-timeline-element-title'> Roc van Amsterdam, Noord-Holland Zaandam. </h3>
       <p>College MBO Diploma</p>
@@ -35,7 +35,7 @@ const Experience = () => {
       <VerticalTimelineElement 
       className="vertical-timeline-element--education"
       date='2016 - 2019'
-      iconStyle={{background:'#3e497a', color: '#fff'}}
+      iconStyle={{background:'#040d22', color: '#fff'}}
       icon={<FaUserSecret/>}>
       <h3 className='vertical-timeline-element-title'> Security Superviser, Securitas </h3>
       <p>I worked at a Datacentre for 3 years</p>
@@ -64,7 +64,7 @@ const Experience = () => {
       <VerticalTimelineElement 
       className="vertical-timeline-element--education"
       date='2022 -'
-      iconStyle={{background:'#3e497a', color: '#fff'}}
+      iconStyle={{background:'#040d22', color: '#fff'}}
       icon={<IoIosSchool/>}>
       <h3 className='vertical-timeline-element-title'> Comptia A+, Udemy </h3>
       <p>i acquired knowledge in Hardware and software troubleshooting,

@@ -1,7 +1,7 @@
 import React from 'react'
-import projectItem from '../components/projectItem';
 import { projectList } from '../projectList.js';
 import '../Styles/Project.css'
+import ProjectItem from '../components/projectItem.js'
 
 const Project = () => {
   return (
@@ -9,7 +9,9 @@ const Project = () => {
     <h1>My Projects</h1>
     <div className='projectList'>
     {projectList.map((project)=>{
-      return <projectItem name={project.Name} image={project.Image}/>
+      return <ProjectItem name={project.Name} 
+      image={project.Image} 
+      id={project.id} />
     })}
     </div>
 

@@ -24,7 +24,7 @@ const Home = () => {
               Operating system installation and configuration,
               Networking fundamentals,
               Mobile device support and troubleshooting and
-              Security concepts and best practices</span>
+              Security concepts and best practices. I have not finished this course yet.</span>
 
       </li>
     </ol>
