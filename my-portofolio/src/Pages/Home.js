@@ -15,16 +15,13 @@ const Home = () => {
     <ol className='list'>
       <li className='item'>
       <h2> Front-End</h2>
-      <span>HTML,CSS,Jacascript,Typescript and React</span>
-
-      </li>
-      <li className='item'>
-      <h2> CompTIA A+ </h2>
-        <span>Hardware and software troubleshooting,
-              Operating system installation and configuration,
-              Networking fundamentals,
-              Mobile device support and troubleshooting and
-              Security concepts and best practices. I have not finished this course yet.</span>
+      <span>
+Tijdens mijn leertraject in React, JavaScript, CSS en HTML heb ik een grondig begrip opgedaan van front-end webontwikkeling.
+ Ik heb geleerd hoe ik interactieve gebruikersinterfaces kan bouwen, data dynamisch kan manipuleren en visueel aantrekkelijke ontwerpen kan maken.
+  Deze kennis heeft me uitgerust met de vaardigheden om boeiende en responsieve websites te creëren. 
+  Mijn motivatie om in deze wereld te werken komt voort uit mijn plezier in het creatieve proces van het ontwerpen en bouwen van gebruiksvriendelijke webapplicaties
+   die een echte impact kunnen hebben op het leven van mensen.
+    </span>
 
       </li>
     </ol>
