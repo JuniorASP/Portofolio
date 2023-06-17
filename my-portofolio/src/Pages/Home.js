@@ -12,8 +12,8 @@ const Home = () => {
     </div>
     <div className='skills'>
 
-    <ol className='list'>
-      <li className='item'>
+    <div className='list'>
+      <div className='item'>
       <h2> Front-End</h2>
       <span>
 Tijdens mijn leertraject in React, JavaScript, CSS en HTML heb ik een grondig begrip opgedaan van front-end webontwikkeling.
@@ -23,8 +23,8 @@ Tijdens mijn leertraject in React, JavaScript, CSS en HTML heb ik een grondig be
    die een echte impact kunnen hebben op het leven van mensen.
     </span>
 
-      </li>
-    </ol>
+      </div>
+    </div>
 
     </div>
 
