@@ -9,8 +9,10 @@
     const {id}= useParams()
     const project = projectList[id]
 
-    const gitGit = () =>{
-      return project.Github()
+    
+    const goToGithub =() =>{
+      window.open(project.Github, '_blank');
+
     }
    return (
      <div className='project'>
@@ -18,7 +20,7 @@
      <img src={project.Image}/>
      <p><b>Skills:</b> {project.Skills}</p>
      <h3>See the code bellow </h3>
-     <GoMarkGithub onClick={()=> gitGit()} size={50} className='git'/>
+     <GoMarkGithub onClick={()=> goToGithub()} size={50} className='git'/>
     
 
 

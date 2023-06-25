@@ -1,64 +1,45 @@
-import apple from './overig/img1.jpg'
-import flightwidget from './overig/img2.webp'
-import flappy from './overig/img3.jpg'
-import doodleJump from './overig/img4.png'
-import employe from './overig/img5.jpg'
-
 
 
 export const projectList =[
 
     {   id: 0,
         Name: 'Flappy Bird',
-        Image: flappy,
+        Image: '/overig/img3.jpg',
         Skills: 'Javascript, Html, Css',
-        Github: function openGithubPage(){
-            window.open('https://github.com/JuniorASP/Flappy-bird', '_blank');
-            console.log('0')
-          }
+        Github: 'https://github.com/JuniorASP/Flappy-bird'
     },
 
     {   id: 1,
         Name: 'Doodle Jump',
-        Image: doodleJump,
+        Image: '/overig/img4.png',
         Skills: 'Javascript, Html, Css',
-        Github: function doodleGit(){
-            window.open("https://github.com/JuniorASP/Doodle-Jump", '_blank');
-            console.log('1')
-          }
+        Github: "https://github.com/JuniorASP/Doodle-Jump"
         
     },
 
     {   id: 2,
         Name: 'Employe Directory',
-        Image: employe,
+        Image: '/overig/img5.jpg',
         Skills: 'Javascript, Html,Css',
-        Github: function employeGit(){
-            window.open("https://github.com/JuniorASP/Techproyect-8", '_blank');
-            console.log('2')
-          }
+        Github: "https://github.com/JuniorASP/Techproyect-8"
+
 
     },
 
     {
         id: 3,
         Name: ' Webshop',
-        Image: apple,
+        Image: '/overig/img1.jpg',
         Skills: 'React,Javascript, Html,Css',
-        Github: function appleGit(){
-            window.open("https://github.com/JuniorASP/my-webshop-react", '_blank');
-            console.log('3')
-          }
+        Github: "https://github.com/JuniorASP/my-webshop-react"
     },
 
     {
         id: 4,
         Name: 'Flight Widget',
-        Image: flightwidget,
+        Image: '/overig/img2.webp',
         Skills: 'Javascript,Css',
-        Github: function flightwidgetGit(){
-            window.open("https://github.com/JuniorASP/flight-widget", '_blank');
-            console.log('4')}
+        Github: "https://github.com/JuniorASP/flight-widget"
 
 
 
