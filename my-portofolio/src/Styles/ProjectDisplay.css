@@ -30,3 +30,16 @@
     border-radius: 50%;
     
   }
+
+  @media (min-width: 324px) {
+    img {
+      max-width: 230px;
+  }
+
+
+  .project p {
+    font-size: 20px;
+    color: #0b0e17;
+  }
+
+}
