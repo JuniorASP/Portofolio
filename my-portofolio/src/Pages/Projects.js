@@ -11,7 +11,7 @@ const Project = () => {
     {projectList.map((project)=>{
       return <ProjectItem name={project.Name} 
       image={project.Image} 
-      id={project.id} />
+      id={project.id} /> 
     })}
     </div>
 

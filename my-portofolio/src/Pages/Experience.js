@@ -38,7 +38,7 @@ const Experience = () => {
       iconStyle={{background:'#040d22', color: '#fff'}}
       icon={<FaUserSecret/>}>
       <h3 className='vertical-timeline-element-title'> Security Superviser, Securitas </h3>
-      <p>I worked at a Datacentre for 3 years</p>
+      <p>I worked at a Datacentre for 5 years  </p>
       </VerticalTimelineElement>
 
 
@@ -47,8 +47,8 @@ const Experience = () => {
       date='2020 -'
       iconStyle={{background:'#FFD700', color: '#fff'}}
       icon={<FaBriefcase/>}>
-      <h3 className='vertical-timeline-element-title'> CEO, GoodSecurity </h3>
-      <p>I Started my own security company</p>
+      <h3 className='vertical-timeline-element-title'> Security and counselor </h3>
+      <p>I have commenced working as a supervisor and security officer for homeless youth at various locations</p>
       </VerticalTimelineElement>
 
 
